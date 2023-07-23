@@ -20,3 +20,7 @@ ResNet-50 is a convolutional neural network that is 50 layers deep. You can load
 
 """)
 
+#Uploading the dog image
+object_image = st.file_uploader("Upload an image...", type=['png','jpg','webp','jpeg'])
+submit = st.button('Predict')
+
