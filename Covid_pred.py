@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.image('Covid.jpg')
+st.image('Covid 1.jpg')
 st.markdown("## Object Classifier App with Deep Learning")
 st.markdown("""
 This app uses Deep learning (ResNet50) libraries namely keras to identify objects from images.
