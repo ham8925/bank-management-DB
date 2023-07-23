@@ -1,13 +1,13 @@
 import numpy as np
 import streamlit as st
 #import cv2
-from keras.models import load_model
+#from keras.models import load_model
 #import joblib
-from keras.preprocessing import image
-from io import BytesIO
-from tensorflow.keras.applications import resnet50
+#from keras.preprocessing import image
+#from io import BytesIO
+#from tensorflow.keras.applications import resnet50
 #Loading the Model
-model = load_model('object_classifier.h5', compile=False)
+#model = load_model('object_classifier.h5', compile=False)
 
 st.image('logo.png')
 st.markdown("## Object Classifier App with Deep Learning")
