@@ -1,6 +1,6 @@
 import numpy as np
 import streamlit as st
-import cv2
+#import cv2
 from keras.models import load_model
 #import joblib
 from keras.preprocessing import image
