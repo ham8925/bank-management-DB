@@ -20,6 +20,19 @@ ResNet-50 is a convolutional neural network that is 50 layers deep. You can load
 
 """)
 
+import psycopg2
+
+def connect_to_database():
+    conn = psycopg2.connect(
+        user="Hamith",
+        password="8925343937",
+        host="localhost",
+        port="3036",
+        database="mobile_net"
+    )
+    return conn
+
+conn = connect_to_database()
 #Uploading the dog image
 object_image = st.file_uploader("Upload an image...", type=['png','jpg','webp','jpeg'])
 submit = st.button('Predict')
