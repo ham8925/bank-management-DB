@@ -8,6 +8,7 @@ mydb = mysql.connector.connect(
     user="root",
     password="8925343937",
     database="covid_pred"
+    
 
 
 )
