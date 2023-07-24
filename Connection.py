@@ -11,5 +11,5 @@ mydb = mysql.connector.connect(
     auth_plugin="mysql_native_password"
 )
 mycursor=mydb.cursor()
-print("Connection Established")
+st.header('Connection Established')
 
